@@ -1,0 +1,18 @@
+#Self-introduction script
+
+#Define your name and occupation
+name="Yagya Saini"
+occupation="Student at ITER College, Bhubneshwar"
+
+# List your hobbies and interests
+hobbies=("Linux Enthusiast" "Bash Scripting" "HAcking" "Coding" "Exploring New Distros")
+
+#Display the self-introduction
+echo "Hello. I'm $name, a passionate $occupation."
+
+echo "Here are few things that define me:"
+for hobby in "${hobbies[@]}"; do
+echo"-$hobby"
+done
+
+echo "Let's connect and chat about Linux and all things tech!"
